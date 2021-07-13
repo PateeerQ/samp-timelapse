@@ -1,4 +1,4 @@
-# Pateer Timelapse
+# SAMP Timelapse
 
 Timelapse Function - Easy to use
 
