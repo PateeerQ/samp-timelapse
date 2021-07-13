@@ -2,7 +2,7 @@
 
 Timelapse Function - Easy to use
 
-## Callback & Function
+## Function
 
 ```pawn
 // Function
