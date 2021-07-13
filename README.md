@@ -21,6 +21,6 @@ main ()
         var2 = gettime() + 120; // var2 is 120 seconds
 
     printf("%s", GetTimelapse(var, var2));
-    // This thing will print gap between 2 times (var & var2)
+    // This thing will print gap between 2 UNIX timestamp (var & var2)
 }
 ````
