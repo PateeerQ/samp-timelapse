@@ -60,7 +60,7 @@ stock GetTimelapse(start, end)
         format(tl_str, sizeof tl_str,"%d Months", (second / month));
     else if(second == year)
         format(tl_str, sizeof tl_str,"a Year");
-    else
+    else if(second > year)
         format(tl_str, sizeof tl_str,"%d Years", (second / year));
 
     return tl_str;
