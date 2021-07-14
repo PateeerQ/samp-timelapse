@@ -1,10 +1,14 @@
 #include <a_samp.inc>
-#include "P_Timelapse.inc"
+#include <P_Timelapse.inc>
 
 main ()
 {
-    new var = gettime() + 60, // 60 Seconds
-        var2 = gettime() + 120; // 120 Seconds
+    new var = gettime() + 60,
+        var2 = gettime() + 120;
 
-    printf("%s", GetTimelapse(var, var2)); // Printing Gap Between var & var2
+    printf("%s", GetTimelapse(var, var2));
+    // This thing will print gap/distance
+
+    printf("%s", IsTimePassed(var2) ? ("Passed") : ("Not Passed"));
+    // THis thing will print is Time Passed or not
 }
