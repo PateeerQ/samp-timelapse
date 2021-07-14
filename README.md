@@ -35,7 +35,7 @@ IsTimePassed
 main ()
 {
     new var = gettime() + 5;
-    printf("%s", (IsTimepassed(var)) ? ("Passed") : ("Not Passed");
+    printf("%s", (IsTimePassed(var)) ? ("Passed") : ("Not Passed");
     // This thing will print is Time passed or not
 }
 ````
