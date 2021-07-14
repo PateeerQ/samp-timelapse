@@ -68,7 +68,7 @@ stock GetTimelapse(start, end)
 
 stock IsTimePassed(time)
 {
-    if(time >= gettime())
+    if(time <= gettime())
         return 1;
 
     return 0;
