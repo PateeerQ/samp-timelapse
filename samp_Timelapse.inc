@@ -34,7 +34,7 @@ stock GetTimelapse(start, end)
         year = (month * 12)
     ;
 
-    if(second > 0 && second == 1)
+    if(second == 1)
         format(tl_str, sizeof tl_str,"a Second");
     else if(second < minute)
         format(tl_str, sizeof tl_str,"%d Seconds", second);
