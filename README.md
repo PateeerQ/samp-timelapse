@@ -15,7 +15,7 @@ IsTimePassed(time)
 GetTimelapse
 
 ```pawn
-#include "P_Timelapse.inc"
+#include <P_Timelapse.inc>
 
 main ()
 {
@@ -30,7 +30,7 @@ main ()
 IsTimePassed
 
 ```pawn
-#include "P_Timelapse.inc"
+#include <P_Timelapse.inc>
 
 main ()
 {
